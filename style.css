@@ -1,0 +1,61 @@
+
+{
+  margin: 0;
+  padding: 0;
+  
+}
+
+header
+{
+
+  background-image: url(image1.jpg);
+  height: 97vh;
+  background-size: cover;
+  background-position: center;
+
+}
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 75px;
+  margin-right: 35px;
+
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: underline;
+  padding: 10px 5px;
+  font-family:sans-serif;
+  font-size: 20px
+  }
+.main-nav li a:hover
+{
+  border: 2px solid white
+}
+h1
+{
+  position: absolute;
+  right: 0;
+  margin-top: 300px;
+  margin-bottom: 150px;
+  color: white;
+  font-size: 50px;
+  -website-animation:mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite;
+}
+/* Chrome, Safari, Opera */
+@-webkit-kyeframes mymove {100% {right: 500px;}
+}
+  /* Standard syntax */
+  @keyframes mymove {100% {right: 500px;}
+
+
+}
